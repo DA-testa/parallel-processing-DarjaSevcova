@@ -1,4 +1,4 @@
-# python3 
+# python3  
 #Darja Ševcova 221RDC039  
 
 def parallel_processing(n, m, data):
