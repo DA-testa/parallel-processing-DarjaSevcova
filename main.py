@@ -7,7 +7,7 @@ def parallel_processing(n, m, data):
     for i in range(m):
         minthread = min(thr, key=lambda x: x[1])
         output.append((minthread[0], minthread[1]))
-        thr[minthread[0] = (minthread[0], minthread[1] + data[i]
+        thr[minthread[0] = (minthread[0], minthread[1] + data[i])
     # TODO: write the function for simulating parallel tasks, 
     # create the output pairs
     return output
