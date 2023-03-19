@@ -3,7 +3,7 @@
 
 def parallel_processing(n, m, data):
     output = []
-    thr = [(0,i) for i in range(n)]
+    thr = [(i,0) for i in range(n)]
     for i in range(m):
         minthread = min(thr, key=lambda x: x[1])
         output.append((minthread[0], minthread[1]))
